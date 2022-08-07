@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# More unnecessary folders
+__pycache__/
+include/
