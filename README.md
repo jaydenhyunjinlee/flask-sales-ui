@@ -1,4 +1,4 @@
-# Flask-sales-ui
+# Flask-sales-UI
 
 Templates under this repository creates sales table that records sales-relevant informations like:
   `order_id`,
@@ -22,4 +22,4 @@ Repository structure:
 `static`: contains static files that don't require constant modifications like `config.json` and `main.css`
 `template`: html files for table UI
 
-Type <font color=blue opacity=0.4>python3 app.py</font> to start up the Flask UI in your localhost(port=5000 by default)
+Type <font color=blue alpha=0.4>python3 app.py</font> to start up the Flask UI in your localhost(port=5000 by default)
