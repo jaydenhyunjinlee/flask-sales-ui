@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Order updates</title>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1>Update order</h1>
+
+    <div class="form">
+        <form action="/update/{{task.orderId}}" method="POST">
+            OrderID: <input type="text" name="orderId" id="content" size="15" value="{{task.orderId}}">
+            <br>
+            Order Quantity: <input type="text" name="quantity" id="content" size="15" value="{{task.quantity}}">
+            <br>
+            Unit Price: <input type="text" name="unitPrice" id="content" size="15" value="{{task.unitPrice}}">
+            <br>
+            Order status: <input type="text" name="status" id="content" size="15" value="{{task.status}}">
+            <br>
+            Order date: <input type="text" name="orderdate" id="content" size="15" value="{{task.orderdate}}">
+            <br>
+            Product category: <input type="text" name="product_category" id="content" size="15" value="{{task.product_category}}">
+            <br>
+            Sales manager: <input type="text" name="sales_manager" id="content" size="15" value="{{task.sales_manager}}">
+            <br>
+            Shipping cost: <input type="text" name="shipping_cost" id="content" size="15" value="{{task.shipping_cost}}">
+            <br>
+            Delivery time: <input type="text" name="delivery_time" id="content" size="15" value="{{task.delivery_time}}">
+            <br>
+            Shipping address: <input type="text" name="shipping_address" id="content" size="15" value="{{task.shipping_address}}">
+            <br>
+            Product code: <input type="text" name="product_code" id="content" size="15" value="{{task.product_code}}">
+            <br>
+            <input type="submit" value="Update">
+        </form>
+    </div>
+</div>
+{% endblock %}
