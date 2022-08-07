@@ -24,4 +24,4 @@ Repository structure:
 `static`: contains static files that don't require constant modifications like `config.json` and `main.css`
 `template`: html files for table UI
 
-Type <font color=blue>python3 app.py</font> to start up the Flask UI in your localhost(port=5000 by default)
+Start up the virtual environment, install all required packages, and type <font color=blue>python3 app.py</font> to start up the Flask UI in your localhost(port=5000 by default)
