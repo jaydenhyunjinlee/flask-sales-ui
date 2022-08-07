@@ -131,3 +131,4 @@ dmypy.json
 # More unnecessary folders
 __pycache__/
 include/
+.DS_Store
