@@ -1,6 +1,8 @@
 # Flask-sales-UI
 
 Templates under this repository creates sales table that records sales-relevant informations like:
+  
+  
   `order_id`,
   `quantity`,
   `unitprice`,
