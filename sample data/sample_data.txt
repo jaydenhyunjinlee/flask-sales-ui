@@ -1,0 +1,4 @@
+﻿29511 92 238 Not Delivered 2021-08-08 Healthcare Pablo 21 25 Singapore HC-188
+21819,61,136,Not Delivered,2021-10-03,Office,Pablo,34,14,UK,O-555
+32391,67,235,Not Delivered,2021-09-27,Office,Kristen,25,11,Kenya,O-188
+11126,33,133,Not Shipped,2021-07-30,Fashion,Abdul,34,24,USA,F-555
